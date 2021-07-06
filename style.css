@@ -71,7 +71,7 @@ p{
     padding-left: 25%;
 }
 .about-content-right{
-    padding:50px 50px 0;
+    padding:70px 50px 0;
 }
 .about-content-right h2{
       color: #575757;
@@ -96,12 +96,61 @@ p{
 .recipie-item{
     background-color: #ffffff;
     border-radius: 20px;
-    box-shadow: 0px 0px 20px -2px #00000088;
+    box-shadow: 0px 0px 25px -6px #0000007a;
     padding:20px;
     text-align: left;
+}
+.recipie-item h3{
+    font-size: 25px;
 }
 .recipie-item p{
     font-size: 18px;
 }
+
+/* =====================Social Media================= */
+
+.social-container{
+    margin: 60px 130px 0;
+    text-align: center;
+    background-color: #ffffff;
+ border-radius: 20px;
+  box-shadow: 0px 0px 25px -6px #0000007a;
+    padding:20px;
+    text-align:center;
+}
+.social-container h3{
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+
+
+
+
+/* ==================Foooter================ */
+footer{
+    background-color: #0B0D17;
+    padding:25px 0 70px;
+    text-align: center;
+}
+footer h2{
+    font-size:30px;
+    color:#575757;
+}
+footer h2 span{
+    color:#eb9a03 ;
+}
+footer p{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
 
 
