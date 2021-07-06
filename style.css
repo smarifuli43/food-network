@@ -1,156 +1,177 @@
-
-
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
-/* ===========Reusable Styles============== */
-section{
-    margin-bottom:100px ;
+/* =====================Reusable Styles======================== */
+section {
+  margin-bottom: 100px;
 }
-.flex-container{
- display: flex;
- margin-top: 50px;
-/* margin-bottom:100px; */
+.flex-container {
+  display: flex;
+  margin-top: 50px;
 }
-.half-width{
-    width: 50%;
+.half-width {
+  width: 50%;
+  margin: 0 auto;
 }
-p{
-  color:#828282;
+p {
+  color: #828282;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 30px;
+  margin: 0;
 }
-.btn{
-    text-decoration: none;
-    color:#ffffff;
-    background-image: linear-gradient(to right, #FBA24F, #FF1E1E);
-    padding: 15px 22px;
-    font-size: 18px;
-    border-radius: 30px;
-    box-shadow: 0 2px 30px 0 rgba(252, 142, 73, 0.5);
-    display: inline-block;
-    margin-top: 20px;
+h2 {
+  color: #575757;
+  font-size: 40px;
 }
-.one-third-width{
-    width: 25%;
-    margin: 0 auto;
+.btn {
+  text-decoration: none;
+  color: #ffffff;
+  background-image: linear-gradient(to right, #fba24f, #ff1e1e);
+  padding: 15px 22px;
+  font-size: 18px;
+  border-radius: 30px;
+  box-shadow: 0 2px 30px 0 rgba(252, 142, 73, 0.5);
+  display: inline-block;
+  margin-top: 40px;
+}
+.one-third-width {
+  width: 25%;
+  margin: 0 auto;
 }
 
 /*===================== Hero Section =============*/
-.hero .half-width img{
-    width: 90%;
+.hero .half-width img {
+  width: 90%;
 }
 
-.hero-left-content{
-    padding-top:80px;
-    padding-left:120px;
+.hero-left-content {
+  padding-top: 80px;
+  padding-left: 120px;
 }
-.hero-heading-color{
-    color: #eb9a03;
+.hero-heading-color {
+  color: #eb9a03;
 }
-.hero-left-content h1{
-    color: #575757;
-    font-size:60px;
-    font-weight: 700;
+.hero-left-content h1 {
+  color: #575757;
+  font-size: 60px;
+  font-weight: 700;
 }
 
 /* ====================About Section==================== */
 
-.about{
-    background-image: url('./img/7.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding: 90px;
-    padding-bottom: 0;
-
+.about {
+  background-image: url("./img/7.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 90px;
+  padding-bottom: 0;
 }
-.about .half-width img{
-    width: 55%;
-    padding-left: 25%;
+.about .half-width img {
+  width: 55%;
+  padding-left: 25%;
 }
-.about-content-right{
-    padding:70px 50px 0;
-}
-.about-content-right h2{
-      color: #575757;
-    font-size:40px;
+.about-content-right {
+  padding: 70px 50px 0;
 }
 
 /* ==================Recipies=============== */
 
 .recipies {
-    text-align: center;
+  text-align: center;
 }
-.recipies h2{
-    color:#575757;
-    font-size: 40px;
+.recipies h2 {
+  color: #575757;
+  font-size: 40px;
 }
-.recipies-container{
-    margin: 60px 100px 0;
+.recipies-container {
+  margin: 60px 100px 0;
 }
-.recipie-item img{
-   width: 100%;
+.recipie-item img {
+  width: 100%;
 }
-.recipie-item{
-    background-color: #ffffff;
-    border-radius: 20px;
-    box-shadow: 0px 0px 25px -6px #0000007a;
-    padding:20px;
-    text-align: left;
+.recipie-item {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 25px -6px #0000007a;
+  padding: 20px;
+  text-align: left;
 }
-.recipie-item h3{
-    font-size: 25px;
+.recipie-item h3 {
+  font-size: 25px;
 }
-.recipie-item p{
-    font-size: 18px;
+.recipie-item p {
+  font-size: 18px;
+}
+
+/* =====================Opening Hour============= */
+.open {
+  text-align: center;
+}
+.open-container {
+  margin: 60px 12% 0;
+}
+.open h3 {
+  color: #f8a100;
+}
+
+/* ===================Booking================== */
+.booking {
+  text-align: center;
+}
+.book-container {
+  margin: 60px 15% 0;
+  text-align: left;
+}
+
+.book-container h3 {
+  font-size: 22px;
+  line-height: 10px;
+}
+input,
+textarea,
+select {
+  padding: 12px 10px;
+  display: block;
+  width: 100%;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  color: #575757;
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 
 /* =====================Social Media================= */
 
-.social-container{
-    margin: 60px 130px 0;
-    text-align: center;
-    background-color: #ffffff;
- border-radius: 20px;
+.social-container {
+  margin: 140px 130px 100px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 20px;
   box-shadow: 0px 0px 25px -6px #0000007a;
-    padding:20px;
-    text-align:center;
+  padding: 20px;
+  text-align: center;
 }
-.social-container h3{
-    font-size: 30px;
-    font-weight: 700;
-
+.social-container h3 {
+  font-size: 30px;
+  font-weight: 700;
 }
-
-
-
-
 
 /* ==================Foooter================ */
-footer{
-    background-color: #0B0D17;
-    padding:25px 0 70px;
-    text-align: center;
+footer {
+  background-color: #0b0d17;
+  padding: 25px 0 80px;
+  text-align: center;
 }
-footer h2{
-    font-size:30px;
-    color:#575757;
+footer h2 {
+  font-size: 30px;
+  color: #575757;
 }
-footer h2 span{
-    color:#eb9a03 ;
+footer h2 span {
+  color: #eb9a03;
 }
-footer p{
-    font-size: 16px;
-    color: #ffffff;
+footer p {
+  font-size: 16px;
+  color: #ffffff;
 }
-
-
-
-
-
-
-
-
-
